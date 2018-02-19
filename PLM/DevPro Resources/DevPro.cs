@@ -5,6 +5,9 @@ using System.Web;
 
 namespace PLM
 {
+    /// <summary>
+    ///  Revisions: 2/19/18 bump
+    /// </summary>
     public static class DevPro
     {
         public static string connectionStringName = "Azure";
@@ -13,8 +16,8 @@ namespace PLM
        // public static string connectionStringName = "Development";
        // public static string baseFileDirectory = "/PerceptualLearningDevelopment/Content/Images/";
 
-        public static string connectionStringName = "Production";
-        public static string baseFileDirectory = "/PerceptualLearning/Content/Images/";
+       // public static string connectionStringName = "Production";
+       // public static string baseFileDirectory = "/PerceptualLearning/Content/Images/";
 
         // public static string connectionStringName = "DAR2";
         //public static string baseFileDirectory = "none";
